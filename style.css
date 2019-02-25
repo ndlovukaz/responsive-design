@@ -1,0 +1,25 @@
+p{color : red }
+
+.looks{font-size : 50 ;}
+
+@media only screen and (max-width :600px){
+
+  body{background-color:green;}
+
+p{
+  display:none
+}}
+@media only screen and (min-width :768px){
+  body{background-color:grey;}
+p{display:none}}
+
+@media only screen and (min-width :992px){
+  body{background-color:pink;}
+  p{display:none}
+}
+
+@media only screen and (min-width :1200px){
+  body{background-color:yellow;}
+
+  p{display:none}
+}
